@@ -1,0 +1,12 @@
+1- scrape pages  one level deep using HTTrack , your custom scripts or another app. 
+
+2- Use google trnaslate to translate the text inside the html to hindi The hindi will be hard coded into the page. 
+
+3- upload to a webserver.
+
+4- make sure all the javascriptys/Css/etc is lo0ading correctly 
+
+5- in your trial task form submission: 
+   -- include a url to the live website on your server so we can see that successfully copied it . 
+   -- let me know  how you scraped the pages. Did you use httrack, another piece of software, or a script you wrote your self?Also how did you handle  the google translate portion?.
+

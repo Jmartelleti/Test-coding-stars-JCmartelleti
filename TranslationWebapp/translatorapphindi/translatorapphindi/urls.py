@@ -1,11 +1,11 @@
 
 from django.contrib import admin
 from django.urls import path
-from core.views import translate_app
+from core.views import translateapp
 
 
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('translate',translate_app , name='trans')
+    path('translate/',translateapp , name='trans')
 ]

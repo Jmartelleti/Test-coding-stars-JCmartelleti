@@ -6,6 +6,5 @@ from core.views import translateapp
 
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
-    path('translate/',translateapp , name='trans')
+    path(' ', translateapp, name='trans')
 ]

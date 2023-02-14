@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title>Translate app</title>
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
 
 <style>
@@ -25,18 +25,19 @@ h1{text-align: center;}
    <div class="form-row mt-4">
 	<div class="col">
       <textarea type="text" name="txt" class="form-control" placeholder="Enter Your Text" rows="5" required="required"></textarea>
-      </div>
-   <div class="col">
-      <select id="inputState" class="form-control" name="lang">
+    </div>
+    <div class="col">
+     <select id="inputState" class="form-control" name="lang">
       <option selected value="en">English</option>
       <option value="ar">Arabic</option>
       <option value="es">Spanish</option>
       <option value="fr">Frensh</option>
       <option value="de">German</option>
       <option value="zh-cn">Chinese</option>
-      </select>
-      </div>
-   </div>
+    </select>
+    </div>
+    
+  </div>
 
       <button type="submit" class="btn btn-primary mt-2">Translate</button>
 
@@ -45,6 +46,13 @@ h1{text-align: center;}
 
 
 <p class="mt-4">{{result}}</p>
+
+
+</div>
+
+
+</body>
+</html>
 
 
 </div>
